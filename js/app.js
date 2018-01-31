@@ -1,19 +1,25 @@
-/*alert("hola");*/
+alert("hola");
 
 //variables para llamar elementos html
-var $msj = $("#post");
-var $btn = $("#postear");
-var $postarea = $("#post-container");
+
 
 // deshabilitar el botton si no hay texto
+$(document).ready(function() {
+  var $msj = $("#post");
+  var $btn = $("#postear");
+  var $postarea = $("#post-container");
+
+
 $msj.keyup(function() {
 
   if($(this).val().length === 10) {
     $btn.removeClass("disabled");
   } else {
-    $btn.class("disabled", "disabled");
+    $btn.className("disabled", "disabled");
   }
 });
+});
+
 
 function Validar(){
   var nombre = document.getElementById('inputName').value;

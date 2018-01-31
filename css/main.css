@@ -8,6 +8,10 @@ green: #a4d5a6;
 pink(2): #c83f71;
 */
 
+#post {
+  height: 10vh;
+}
+
 .margin { /*da estilo a la barra superior*/
   background-color: #CFE5D8;
   margin: 0px;
@@ -28,6 +32,10 @@ margin-top: 10vh;
   height: 90vh;
   margin: 0;
   padding: 0;
+}
+
+.pink1 { /*coloca el fondo al index*/
+  background-image: url(../assets/images/madres.png);
 }
 
 footer { /*da estilo al footer*/
@@ -101,6 +109,10 @@ footer { /*da estilo al footer*/
   font-weight: bold;
 }
 
+.button3 { /* ajusta el boton del index*/
+margin-top: 8vh;
+}
+
 .btn-w {
   width: 200px;
 }
@@ -163,4 +175,10 @@ input[type=file]{
 #album {
   margin-top: 50px;
 
+}
+
+.news {
+  background-color: white;
+  border-radius: 5px;
+  color: #c83f71;
 }
